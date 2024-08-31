@@ -1,0 +1,79 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ser="http://servicos/">
+   <soapenv:Header>
+      <ser:usuario>
+         <nome>Ana Pereira</nome>
+         <login>soa</login>
+         <senha>soa</senha>
+      </ser:usuario>
+   </soapenv:Header>
+   <soapenv:Body>
+      <ser:criarPedido>
+         <pedido>
+            <id>4</id> 
+            <clienteNome>Ana Pereira</clienteNome>
+            <clienteCpf>555.666.777-88</clienteCpf>
+            <itensPedido>
+               <itemPedido>
+                  <medicamento>
+                     <codigo>004</codigo>
+                     <fabricante>Pfizer</fabricante>
+                     <nome>Ibuprofeno</nome>
+                     <preco>9.99</preco>
+                  </medicamento>
+                  <quantidade>2</quantidade>
+               </itemPedido>
+               <itemPedido>
+                  <medicamento>
+                     <codigo>005</codigo>
+                     <fabricante>Aché</fabricante>
+                     <nome>Vitamina C</nome>
+                     <preco>14.99</preco>
+                  </medicamento>
+                  <quantidade>1</quantidade>
+               </itemPedido>
+            </itensPedido>
+         </pedido>
+      </ser:criarPedido>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+
+
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ser="http://servicos/">
+   <soapenv:Header>
+      <ser:usuario>
+         <nome>Pedro Martins</nome>
+         <login>soa</login>
+         <senha>soa</senha>
+      </ser:usuario>
+   </soapenv:Header>
+   <soapenv:Body>
+      <ser:criarPedido>
+         <pedido>
+            <id>5</id> 
+            <clienteNome>Pedro Martins</clienteNome>
+            <clienteCpf>999.888.777-66</clienteCpf>
+            <itensPedido>
+               <itemPedido>
+                  <medicamento>
+                     <codigo>002</codigo>
+                     <fabricante>Sanofi</fabricante>
+                     <nome>Dipirona</nome>
+                     <preco>3.49</preco>
+                  </medicamento>
+                  <quantidade>5</quantidade>
+               </itemPedido>
+               <itemPedido>
+                  <medicamento>
+                     <codigo>005</codigo>
+                     <fabricante>Aché</fabricante>
+                     <nome>Vitamina C</nome>
+                     <preco>14.99</preco>
+                  </medicamento>
+                  <quantidade>3</quantidade>
+               </itemPedido>
+            </itensPedido>
+         </pedido>
+      </ser:criarPedido>
+   </soapenv:Body>
+</soapenv:Envelope>
